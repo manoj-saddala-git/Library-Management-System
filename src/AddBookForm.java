@@ -8,7 +8,7 @@ public class AddBookForm extends JFrame {
 
     public AddBookForm(String librarianId) {
         setTitle("Add New Book");
-        setSize(400, 350);
+        setSize(400, 400);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 

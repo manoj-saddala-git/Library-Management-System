@@ -56,8 +56,10 @@ public class IssueBookForm extends JFrame {
 
         checkEligibilityButton.addActionListener(e -> checkEligibility());
         issueButton.addActionListener(e -> issueBook());
-        backButton.addActionListener(e ->
-                dispose());
+        backButton.addActionListener(e ->{
+            new LibrarianDashboard(librarianId);
+            dispose();
+        });
 
         setVisible(true);
     }
